@@ -1,0 +1,14 @@
+
+GET http://localhost:3000/movies/
+
+###
+POST http://localhost:3000/movies/
+content-type:application/json
+
+{
+    "directorId":24,
+    "movieName":"Thor",
+    "leadActor":"Chirstopher Hemsworth"
+}
+###
+GET http://localhost:3000/movies/:48/
